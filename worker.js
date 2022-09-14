@@ -5,7 +5,8 @@ const api = {
   url: 'https://kv.cf/api',
   type: 'https://apis.do/database',
   endpoints: {
-    webhook: 'https://namespace.kv.cf/:resource',
+    resources: 'https://namespace.kv.cf/:resource',
+    resources: 'https://namespace.kv.cf/:resource',
     details: 'https://namespace.kv.cf/:resource/:id',
   },
   site: 'https://kv.cf',

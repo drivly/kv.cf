@@ -1,0 +1,14 @@
+name = "kv-cf"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+route = { pattern = "*/*", zone_id = "72f33dbc9eba6dcb2365d226a08ec3d1" }
+main = "worker.js"
+compatibility_date = "2022-08-23"
+
+services = [
+  { binding = "CTX", service = "ctx-do", environment = "production" }
+]
+
+[[kv_namespaces]]
+  binding = "KVCF"
+  id = "2af4992bd65d49a59724e687ff1e6273"
+  preview_id = "2af4992bd65d49a59724e687ff1e6273"

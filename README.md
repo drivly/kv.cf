@@ -1,2 +1,1 @@
-# kv.cf
-Simple Cloudflare Worker KV API
+# KV.cf - Simple Cloudflare Worker KV API
